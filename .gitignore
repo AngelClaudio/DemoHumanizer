@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.vscode/settings.json
+DemoHumanizer/obj/DemoHumanizer.csproj.nuget.dgspec.json
+DemoHumanizer/obj/project.assets.json
+DemoHumanizer/obj/Debug/net8.0/DemoHumanizer.assets.cache
