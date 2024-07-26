@@ -39,21 +39,21 @@ Console.WriteLine(new TimeOnly(15, 30).ToClockNotation() + Environment.NewLine);
 // Numbers Humanized
 Console.WriteLine(7483.ToWords());
 Console.WriteLine(7483.ToWords(false)); // US version with the "and"
-Console.WriteLine(20.ToOrdinalWords());
+Console.WriteLine(20.ToOrdinalWords() + Environment.NewLine);
 
 // Roman Numerals Humanized
 Console.WriteLine(53.ToRoman());
-Console.WriteLine("LII".FromRoman());
+Console.WriteLine("LII".FromRoman() + Environment.NewLine);
 
 // Sizing of Harddrives Humanized
 var size = 250.Gigabytes();
 Console.WriteLine(size.Megabytes);
 Console.WriteLine(size.Terabytes);
-Console.WriteLine(size.Humanize());
+Console.WriteLine(size.Humanize() + Environment.NewLine);
 
 // Using Compass Actions (just cause, why not lol)
 Console.WriteLine(315d.ToHeading(HeadingStyle.Full));
-Console.WriteLine(315d.ToHeadingArrow());
+Console.WriteLine(315d.ToHeadingArrow() + Environment.NewLine);
 enum Book
 {// Top level code that uses Enum must always precede the declaration of the enum.
   SelfHelp,
